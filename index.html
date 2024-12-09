@@ -16,13 +16,13 @@
 <body class="bg-gray-900">
 
    <!-- Header Section -->
-   <header class="relative bg-cover bg-center-top min-h-[600px] pb-10" style="background-image: url('Images/Rectangle\ 1.png');">
+   <header class="relative bg-cover bg-center-top min-h-[650px] pb-10" style="background-image: url('Images/presentation.jpeg'); background-position: center right;">
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="container mx-auto relative z-10">
         <!-- Navigation -->
-        <nav class="flex justify-between items-center py-6 px-12 md:px-0 md:text-sm lg:text-sm">
+        <nav class="flex justify-between items-center py-6 lg:px-12 md:px-0 md:text-sm lg:text-lg ">
           <div class="flex items-center">
-              <img src="Images/RAZORKH3white 1.png" class="h-16" alt="Logo">
+              <img src="Images/RAZORKH3white 1.png" class="lg:h-16 md:h-12" alt="Logo">
           </div>
           <div class="md:hidden">
               <!-- Hamburger Menu Icon -->
@@ -32,14 +32,14 @@
                   </svg>
               </button>
           </div>
-          <ul id="menu" class="hidden md:flex flex-col md:flex-row md:space-x-6 md:items-center md:static absolute bg-white md:bg-transparent text-black md:text-white text-xl top-20 left-0 w-full md:w-auto">
+          <ul id="menu" class="hidden md:flex flex-col md:flex-row md:space-x-6 md:items-center md:static absolute bg-white md:bg-transparent text-black md:text-white top-20 left-0 w-full md:w-auto">
               <li><a href="index.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black">Home</a></li>
               <li><a href="our-services.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Our Services</a></li>
-              <li><a href="#" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Testimonials</a></li>
+              <!-- <li><a href="#" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Testimonials</a></li> -->
               <li><a href="#" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Recent Works</a></li>
               <li><a href="about.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">About Us</a></li>
           </ul>
-          <a href="contact-us.html" class="hidden md:block border-2 text-xl text-white py-2 px-6 rounded">Contact Us</a>
+          <a href="contact-us.html" class="hidden md:block border-2 lg:text-xl md:text-lg text-white py-2 px-6 rounded">Contact Us</a>
       </nav>
 
         <!-- Hero Content -->
@@ -47,11 +47,11 @@
             <div class="pattern-bg w-full flex flex-col justify-center items-center px-12 text-center text-white mt-36">
               <p class="text-blue-400 mb-4 text-xl">DREAM | DESIGN | DELIVER</p>
               <div class="inline-flex items-center justify-center w-full">
-                  <hr class="w-64 h-px my-8 bg-white border-0 dark:bg-white">
-                  <h1 class="text-2xl font-extrabold tracking-wide leading-snug ending-snug">
+                  <hr class="w-64 h-px my-8 mr-16 bg-white border-0 dark:bg-white">
+                  <h1 class="text-3xl font-bold tracking-wide leading-snug ending-snug">
                     FOCAL BUILDINGS SOLUTIONS
                   </h1>
-                  <hr class="w-64 h-px my-8 bg-white border-0 dark:bg-white">
+                  <hr class="w-64 h-px my-8 ml-16 bg-white border-0 dark:bg-white">
               </div>
               
               <a href="#"
@@ -64,9 +64,9 @@
 
   <!-- Main Section -->
   <section class="flex flex-col lg:flex-row items-center max-w-8xl mx-auto p-8 lg:p-16 gap-8 mb-12">
-   <div class="border-2 border-gray-600 flex p-16 flex-col lg:flex-row bg-[#0d192e] -mb-32 ">
+   <div class="border-2 border-gray-600 flex p-16 flex-col lg:flex-row bg-[#0d192e] -mt-32 relative z-10">
      <!-- Left Content -->
-     <div class="lg:w-1/2">
+     <div class="lg:w-1/2 ">
         <h2 class="text-blue-400 text-xl uppercase tracking-wide font-semibold">Introduction</h2>
         <hr class="color-blue-400 mt-6 w-28">
         <h1 class="text-4xl font-extrabold mt-4 text-white">Who Are We And What We Do?</h1>
@@ -185,52 +185,60 @@
     </div>
 
     <!-- Services Section -->
-    <div class="grid grid-cols-1 md:grid-cols-4 mt-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 mt-12 mb-10">
       <!-- Beauty Card -->
-      <div class="p-6 relative" style="background-image: url('Images/Rectangle\ 1.png');">
-        <h3 class="text-xl font-bold">Beauty</h3>
-        <p class="mt-4 text-gray-300">
-          We treat all stakeholders with politeness, dignity, and civility that equals the outward beauty of our environment and the environments we create.
-        </p>
+      <div class="relative" style="background-image: url('Images/panthers.png'); background-size: cover; background-repeat: no-repeat;">
+        <div class="p-6 relative bg-blue-400 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Beauty</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We treat all stakeholders with politeness, dignity, and civility that equals the outward beauty of our environment and the environments we create.
+          </p>
+        </div>
         <div 
           class="absolute inset-0 bg-blue-600 bg-opacity-50 mix-blend-overlay pointer-events-none">
         </div>
       </div>
 
       <!-- Integrity Card -->
-      <div class="bg-blue-800 p-6" style="background-image: url('Images/box-2.jpeg');">
-        <h3 class="text-xl font-bold">Integrity</h3>
-        <p class="mt-4 text-gray-300">
-          We stay true to our word. We will do what we say we will do, and deliver on our promises. If forfeiting on our word is beyond our human control, we will communicate this transparently and in good time.
-        </p>
+      <div class="" style="background-image: url('Images/box-2.jpeg'); background-size: cover; background-repeat: no-repeat">
+        <div class="p-6 relative bg-blue-800 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Integrity</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We stay true to our word. We will do what we say we will do, and deliver on our promises. If forfeiting on our word is beyond our human control, we will communicate this transparently and in good time.
+          </p>
+        </div>
       </div>
 
       <!-- Loyalty Card -->
-      <div class="p-6" style="background-image: url('Images/box-2.jpeg');">
-        <h3 class="text-xl font-bold">Loyalty</h3>
-        <p class="mt-4 text-gray-300">
-          We are faithful to the mission and vision of our stakeholders and their organizations.
-        </p>
+      <div class="" style="background-image: url('Images/car.jpeg'); background-size: cover; background-repeat: no-repeat">
+        <div class="p-6 relative bg-blue-800 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Loyalty</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We are faithful to the mission and vision of our stakeholders and their organizations.
+          </p>
+        </div>
       </div>
 
       <!-- Diligence Card -->
-      <div class="bg-blue-800 p-6" style="background-image: url('Images/Rectangle\ 1.png');">
-        <h3 class="text-xl font-bold">Diligence</h3>
-        <p class="mt-4 text-gray-300">
-          We give our utmost attention to our projects. We do this in excellence and with precision.
-        </p>
+      <div class="" style="background-image: url('Images/Rectangle\ 1.png'); background-size: cover; background-repeat: no-repeat">
+        <div class="p-6 relative bg-blue-800 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Diligence</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We give our utmost attention to our projects. We do this in excellence and with precision.
+          </p>
+        </div>
       </div>
     </div>
 
     <!-- Carousel Controls -->
-    <div class="flex justify-center items-center mt-8">
+    <!-- <div class="flex justify-center items-center mt-8">
       <button class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center mx-2">
         ←
       </button>
       <button class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center mx-2">
         →
       </button>
-    </div>
+    </div> -->
   </div>
 
 
@@ -244,17 +252,17 @@
     </div>
 
     <!-- Gallery Section -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0 mt-12">
       <!-- Featured Project Card -->
       <div class="relative group">
         <img 
-          src="https://via.placeholder.com/600x400" 
+          src="Images/Rectangle 10.png" 
           alt="DeepOcean Project" 
           class="w-full h-full object-cover"
         >
-        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center">
-          <h3 class="text-xl font-bold">DEEPOCEAN</h3>
-          <p class="mt-2 text-sm text-gray-300 text-center">
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center">
+          <h3 class="text-xl font-bold text-white">DEEPOCEAN</h3>
+          <p class="mt-2 text-sm text-white text-center">
             Oman House, Airport - Accra - 200m² <br>
             Design Build Contractor - October 2017
           </p>
@@ -266,20 +274,21 @@
 
     
         <!-- Other Project Images -->
-      <img src="https://via.placeholder.com/600x400" alt="Project 1" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 2" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 3" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 4" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 5" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 6" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 7" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 8" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 9" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 10" class="w-full h-full object-cover">
-      <img src="https://via.placeholder.com/600x400" alt="Project 11" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 7.png" alt="Project 1" class="w-full h-96 object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 2" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 3" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 10.png" alt="Project 4" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 11.png" alt="Project 5" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 12.png" alt="Project 6" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 7" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 16.png" alt="Project 8" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 9" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 11.png" alt="Project 10" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 7.png" alt="Project 11" class="w-full h-full object-cover">
     
       
     </div>
+    
   </div>
 
 
@@ -291,70 +300,37 @@
     </div>
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 lg:px-0">
         <!-- Team Member Card -->
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Patrick Scott" class="w-full h-60 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Patrick Scott</h3>
-                <p class="text-center text-sm text-gray-500">Chief Operating Officer</p>
-            </div>
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+          <img src="Images/ernest.png" alt="Patrick Scott" class="w-full h-60 object-cover">
+          <div class="p-4">
+              <h3 class="text-lg font-semibold text-center">ernest LARMIE</h3>
+              <p class="text-center text-sm text-white">CEO | Project Director</p>
+          </div>
         </div>
         <!-- Repeat Cards -->
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Patrick Scott" class="w-full h-60 object-cover">
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+            <img src="Images/kweku.png" alt="Patrick Scott" class="w-full h-60 object-cover">
             <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Patrick Scott</h3>
-                <p class="text-center text-sm text-gray-500">Chief Operating Officer</p>
+                <h3 class="text-lg font-semibold text-center">kweku HAYFORD</h3>
+                <p class="text-center text-sm text-white">Director | Strategy & Business Development</p>
             </div>
         </div>
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Neil Albert" class="w-full h-60 object-cover">
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+            <img src="Images/HANETTA.png" alt="Neil Albert" class="w-full h-60 object-cover">
             <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Neil Albert</h3>
-                <p class="text-center text-sm text-gray-500">President of Joint Venture</p>
+                <h3 class="text-lg font-semibold text-center">HANETTA HAYFORD</h3>
+                <p class="text-center text-sm text-white">OPERATIONS MANAGER</p>
             </div>
         </div>
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Christopher Butts" class="w-full h-60 object-cover">
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+            <img src="Images/fauzia.png" class="w-full h-60 object-cover">
             <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Christopher Butts, Ed.D.</h3>
-                <p class="text-center text-sm text-gray-500">Senior Vice President</p>
+                <h3 class="text-lg font-semibold text-center">FAUZIA CLOTTEY</h3>
+                <p class="text-center text-sm text-white">PROCUREMENT MANAGER</p>
             </div>
         </div>
     </div>
-
-    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 lg:px-0 mt-12">
-        <!-- Team Member Card -->
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Patrick Scott" class="w-full h-60 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Patrick Scott</h3>
-                <p class="text-center text-sm text-gray-500">Chief Operating Officer</p>
-            </div>
-        </div>
-        <!-- Repeat Cards -->
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Patrick Scott" class="w-full h-60 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Patrick Scott</h3>
-                <p class="text-center text-sm text-gray-500">Chief Operating Officer</p>
-            </div>
-        </div>
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Neil Albert" class="w-full h-60 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Neil Albert</h3>
-                <p class="text-center text-sm text-gray-500">President of Joint Venture</p>
-            </div>
-        </div>
-        <div class="bg-white text-black rounded-md overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="Christopher Butts" class="w-full h-60 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-semibold text-center">Christopher Butts, Ed.D.</h3>
-                <p class="text-center text-sm text-gray-500">Senior Vice President</p>
-            </div>
-        </div>
-    </div>
-</section>
+  </section>
 
 <!-- Contact Section -->
 <section class="bg-[#1E293B] py-16">
@@ -379,8 +355,7 @@
     </div>
 </section>
 
-   <!-- Hero Section -->
-   <section class="relative bg-cover bg-center h-[400px]" style="background-image: url('Images/Rectangle\ 9768.png');">
+   <section class="relative bg-cover bg-center h-[400px]" style="background-image: url('Images/footer.jpeg'); background-position: top center;">
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="relative text-white container mx-auto flex flex-col items-center justify-center h-full text-center">
         <h1 class="text-4xl font-bold mb-6 text-white ">Connect with Us on Your Project to Get It Done</h1>
@@ -441,7 +416,7 @@
 
   <hr class="border border-gray-600">
   <div class="text-center text-white mt-4">
-      © 2024 KH3. All Rights Reserved.
+      <p>© 2024 KH3. All Rights Reserved.</p>
   </div>
 </footer>
 
@@ -455,8 +430,5 @@
       menu.classList.toggle('hidden');
   });
 </script>
-</body>
-
-
 </body>
 </html>
