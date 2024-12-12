@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focal Buildings Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom pattern for the left section */
+    .pattern-bg {
+      background-image: radial-gradient(circle, #1a1a1a 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+  </style>
+</head>
+<body class="bg-gray-900">
+
+   <!-- Header Section -->
+   <header class="relative bg-cover bg-center-top min-h-[650px] pb-10" style="background-image: url('Images/presentation.jpeg'); background-position: center right;">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="container mx-auto relative z-10">
+        <!-- Navigation -->
+        <nav class="flex justify-between items-center py-6 lg:px-12 md:px-0 md:text-sm lg:text-lg ">
+          <div class="flex items-center">
+              <img src="Images/RAZORKH3white 1.png" class="lg:h-16 md:h-12" alt="Logo">
+          </div>
+          <div class="md:hidden">
+              <!-- Hamburger Menu Icon -->
+              <button id="menu-toggle" class="text-white focus:outline-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+              </button>
+          </div>
+          <ul id="menu" class="hidden md:flex flex-col md:flex-row md:space-x-6 md:items-center md:static absolute bg-white md:bg-transparent text-black md:text-white top-20 left-0 w-full md:w-auto">
+              <li><a href="index.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black">Home</a></li>
+              <li><a href="our-services.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Our Services</a></li>
+              <!-- <li><a href="#" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Testimonials</a></li> -->
+              <li><a href="#" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Recent Works</a></li>
+              <li><a href="about.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">About Us</a></li>
+          </ul>
+          <a href="contact-us.html" class="hidden md:block border-2 lg:text-xl md:text-lg text-white py-2 px-6 rounded">Contact Us</a>
+      </nav>
+
+        <!-- Hero Content -->
+        <div class="text-center text-white mt-16">
+            <div class="pattern-bg w-full flex flex-col justify-center items-center px-12 text-center text-white mt-36">
+              <p class="text-blue-400 mb-4 text-xl">DREAM | DESIGN | DELIVER</p>
+              <div class="inline-flex items-center justify-center w-full">
+                  <hr class="w-64 h-px my-8 mr-16 bg-white border-0 dark:bg-white">
+                  <h1 class="text-3xl font-bold tracking-wide leading-snug ending-snug">
+                    FOCAL BUILDINGS SOLUTIONS
+                  </h1>
+                  <hr class="w-64 h-px my-8 ml-16 bg-white border-0 dark:bg-white">
+              </div>
+              
+              <a href="#"
+                class="mt-6 px-6 py-3 bg-white text-blue-400 font-bold rounded ">
+                About Us
+              </a>
+            </div>
+    </div>
+</header>
+
+  <!-- Main Section -->
+  <section class="flex flex-col lg:flex-row items-center max-w-8xl mx-auto p-8 lg:p-16 gap-8 mb-12">
+   <div class="border-2 border-gray-600 flex p-16 flex-col lg:flex-row bg-[#0d192e] -mt-32 relative z-10">
+     <!-- Left Content -->
+     <div class="lg:w-1/2 lg:pr-28 ">
+        <h2 class="text-blue-400 text-xl uppercase tracking-wide font-semibold">Introduction</h2>
+        <hr class="color-blue-400 mt-6 w-28">
+        <h1 class="text-4xl font-extrabold mt-4 text-white">Who Are We And What We Do?</h1>
+        <p class="text-gray-300 text-xl mt-6 leading-relaxed ">
+          KH3 is Ghana’s leading Construction Project Management Firm with a focus on Interior Design and Fit-out.
+          Founded in 2014 by a highly motivated team, KH3 is committed to being the standard of business excellence in Africa.
+        </p>
+        <p class="text-gray-300 text-xl mt-4 leading-relaxed">
+          Our turnkey approach provides our clients with a single point of contact. This liberates them to refocus on their
+          core business. Results: Exceptional projects completed within budget and on time!
+        </p>
+        <p class="text-gray-300 text-xl mt-4 leading-relaxed">
+          Our forward-thinking, highly sought-after network of professionals, artisans, suppliers, and subcontractors make
+          up the powerhouse that is the KH3 team.
+        </p>
+        <p class="text-gray-300 text-xl mt-4 leading-relaxed">
+          Guided by our core values of Beauty, Integrity, Loyalty, Diligence, Excellence, Resilience, and Studiousness, our
+          team has executed over 20,000 square meters of office space for international and national brands such as IBM,
+          Nestle, and Enterprise Group Limited.
+        </p>
+      </div>
+  
+      <!-- Right Image -->
+      <div class="lg:w-1/2 md:w-5/5 md:h-3/6" >
+        <img
+          src="Images/hallway.jpeg"
+          alt="Modern Architecture"
+          class="w-max-full md:w-full h-full lg:h-[700px] md:h-3/4 object-cover rounded-md shadow-md"
+
+        />
+      </div>
+   </div>
+  </section>
+  
+
+  <section class="max-w-full mx-auto p-8 lg:p-16 flex flex-col lg:flex-row items-center gap-8" style="background-image: url('Images/Layer\ 2.png')">
+    <!-- Left Image -->
+    <div class="lg:w-1/2">
+      <div class="overflow-hidden shadow-lg">
+        <img
+          src="Images/meeting_2.jpeg"
+          alt="Team Collaboration"
+          class="w-full max-h-3/6  object-cover"
+        />
+      </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="lg:w-1/2 p-8 rounded-md shadow-md">
+      <h2 class="text-blue-400 text-xl uppercase tracking-wide font-semibold">Our Mission <br> 
+        <span>
+            <hr class="color-blue-400 mt-6 w-24">
+        </span>
+      </h2>
+      <h1 class="text-4xl font-extrabold mt-4 text-white">Ghana’s Leading Construction Project Management Firm</h1>
+      <ul class="text-gray-300 text-xl mt-6 space-y-4 list-disc list-inside">
+        <p>
+          We are established to provide construction project management and interior fit-out services to Companies,
+          Corporations, Institutions, and Government entities.
+        </p>
+        <p>
+          We consistently use best practices to set globally competitive standards of excellence.
+        </p>
+        <p>
+          We provide minimum points of contact to allow cpents to focus on their core business, improve quapty, and
+          reduce costs and timepnes.
+        </p>
+        <p>
+          We recruit, train, retain, and empower the best and the brightest attitudes in our areas of endeavor.
+        </p>
+        <p>
+          We give back our time, our money, and our skills to help improve our communities.
+        </p>
+      </ul>
+    </div>
+  </section>
+
+  <div class="flex flex-col md:flex-row items-center lg:p-8 justify-center bg-blue-500 min-h-content">
+    <!-- Left Image Section -->
+    <div class="flex-shrink-0 w-full md:w-1/2 lg:p-8">
+      <img 
+        src="Images/fem-eng.jpeg" 
+        alt="Team Collaboration" 
+        class="w-full h-auto object-cover lg:h-[750px]"
+      >
+    </div>
+
+    <!-- Right Content Section -->
+    <div class="bg-blue-900 text-white w-full md:max-w-1/2 lg:w-1/2 p-8 lg:-ml-60">
+      <h4 class="text-xl font-bold uppercase text-blue-400">Values</h4>
+      <h1 class="text-3xl font-bold mt-4">Construction Project Management</h1>
+      <p class="mt-6 text-gray-300 text-xl leading-relaxed">
+        Construction projects can give you a headache and present numerous concerns that can keep you up at night. 
+        Details ranging from how to assess and select consultants or contractors to challenges with traffic impact 
+        assessments or soil tests. Construction projects can be even more challenging if construction or interior 
+        fit-out are not your core business.
+      </p>
+      <p class="mt-4 text-gray-300 text-xl leading-relaxed">
+        At KH3, we know it is in our interest and yours, to reduce these challenges to a minimum by providing the 
+        expertise required to complete your project successfully and on time.
+      </p>
+      <button 
+        class="mt-6 px-6 py-3 bg-blue-500 text-white font-medium rounded hover:bg-blue-400 transition">
+        About Us
+      </button>
+    </div>
+  </div>
+
+
+  <div class="container mx-auto px-6 py-12">
+    <!-- Header Section -->
+    <div class="text-left">
+      <h4 class="text-sm font-bold uppercase text-blue-400">Our Services
+        <hr class="mt-4 border-blue-400 " style="max-width: 103px; color: #000;">
+      </h4>
+      <h1 class="text-4xl text-white font-bold mt-4">Providing a Variety of Consulting Services</h1>
+    </div>
+
+    <!-- Services Section -->
+    <div class="grid grid-cols-1 md:grid-cols-4 mt-12 mb-10">
+      <!-- Beauty Card -->
+      <div class="relative" style="background-image: url('Images/panthers.png'); background-size: cover; background-repeat: no-repeat;">
+        <div class="p-6 relative bg-blue-400 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Beauty</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We treat all stakeholders with politeness, dignity, and civility that equals the outward beauty of our environment and the environments we create.
+          </p>
+        </div>
+        <div 
+          class="absolute inset-0 bg-blue-600 bg-opacity-50 mix-blend-overlay pointer-events-none">
+        </div>
+      </div>
+
+      <!-- Integrity Card -->
+      <div class="" style="background-image: url('Images/box-2.jpeg'); background-size: cover; background-repeat: no-repeat">
+        <div class="p-6 relative bg-blue-800 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Integrity</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We stay true to our word. We will do what we say we will do, and deliver on our promises. If forfeiting on our word is beyond our human control, we will communicate this transparently and in good time.
+          </p>
+        </div>
+      </div>
+
+      <!-- Loyalty Card -->
+      <div class="" style="background-image: url('Images/car.jpeg'); background-size: cover; background-repeat: no-repeat">
+        <div class="p-6 relative bg-blue-800 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Loyalty</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We are faithful to the mission and vision of our stakeholders and their organizations.
+          </p>
+        </div>
+      </div>
+
+      <!-- Diligence Card -->
+      <div class="" style="background-image: url('Images/Rectangle\ 1.png'); background-size: cover; background-repeat: no-repeat">
+        <div class="p-6 relative bg-blue-800 inset-0 opacity-90 w-full h-full">
+          <h3 class="text-xl font-bold text-white">Diligence</h3>
+          <p class="mt-4 text-gray-300 text-white">
+            We give our utmost attention to our projects. We do this in excellence and with precision.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <!-- <div class="flex justify-center items-center mt-8">
+      <button class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center mx-2">
+        ←
+      </button>
+      <button class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center mx-2">
+        →
+      </button>
+    </div> -->
+  </div>
+
+
+  <div class="container mx-auto px-6 py-12">
+    <!-- Header Section -->
+    <div class="text-center items-center">
+      <h4 class="text-sm font-bold uppercase text-blue-400">Recent Projects
+      </h4>
+      <hr class="mt-4 border-blue-400 w-20 inline-flex justify center">
+      <h1 class="text-4xl text-white font-bold mt-4">Have a Look at Our Latest Works</h1>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0 mt-12">
+      <!-- Featured Project Card -->
+      <div class="relative group">
+        <img 
+          src="Images/Rectangle 10.png" 
+          alt="DeepOcean Project" 
+          class="w-full h-full object-cover"
+        >
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center">
+          <h3 class="text-xl font-bold text-white">DEEPOCEAN</h3>
+          <p class="mt-2 text-sm text-white text-center">
+            Oman House, Airport - Accra - 200m² <br>
+            Design Build Contractor - October 2017
+          </p>
+          <button class="mt-4 px-6 py-2 bg-blue-500 text-white font-medium rounded hover:bg-blue-400">
+            View More
+          </button>
+        </div>
+    </div>
+
+    
+        <!-- Other Project Images -->
+      <img src="Images/Rectangle 7.png" alt="Project 1" class="w-full h-96 object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 2" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 3" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 10.png" alt="Project 4" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 11.png" alt="Project 5" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 12.png" alt="Project 6" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 7" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 16.png" alt="Project 8" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 8.png" alt="Project 9" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 11.png" alt="Project 10" class="w-full h-full object-cover">
+      <img src="Images/Rectangle 7.png" alt="Project 11" class="w-full h-full object-cover">
+    
+      
+    </div>
+    
+  </div>
+
+
+   <!-- Team Section -->
+   <section class="py-16">
+    <div class="text-center mb-12">
+        <h2 class="text-lg text-blue-400 uppercase font-semibold">Our Team</h2>
+        <h1 class="text-3xl text-white font-bold mt-4">Some Personalities You Must Know</h1>
+    </div>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 lg:px-0">
+        <!-- Team Member Card -->
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+          <img src="Images/ernest.png" alt="Patrick Scott" class="w-full h-60 object-cover">
+          <div class="p-4">
+              <h3 class="text-lg font-semibold text-center">ernest LARMIE</h3>
+              <p class="text-center text-sm text-white">CEO | Project Director</p>
+          </div>
+        </div>
+        <!-- Repeat Cards -->
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+            <img src="Images/kweku.png" alt="Patrick Scott" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-center">kweku HAYFORD</h3>
+                <p class="text-center text-sm text-white">Director | Strategy & Business Development</p>
+            </div>
+        </div>
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+            <img src="Images/HANETTA.png" alt="Neil Albert" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-center">HANETTA HAYFORD</h3>
+                <p class="text-center text-sm text-white">OPERATIONS MANAGER</p>
+            </div>
+        </div>
+        <div class="bg-blue-400 text-white rounded-md overflow-hidden">
+            <img src="Images/fauzia.png" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-center">FAUZIA CLOTTEY</h3>
+                <p class="text-center text-sm text-white">PROCUREMENT MANAGER</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section class="bg-[#1E293B] py-16">
+    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 lg:px-0">
+        <!-- Contact Form -->
+        <div>
+            <h2 class="text-3xl text-white font-bold mb-6">Get in Touch With Us</h2>
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <input type="text" placeholder="Name*" class="p- border-b-2 border-white outline-none   bg-gray-800 text-white focus:ring-2 focus:ring-blue-400">
+                    <input type="email" placeholder="Email*" class="p-2 border-b-2 border-white  bg-gray-800 text-white focus:ring-2 focus:ring-blue-400">
+                    <input type="text" placeholder="Purpose" class="p-2 border-b-2 border-white  bg-gray-800 text-white focus:ring-2 focus:ring-blue-400">
+                </div>
+                <textarea placeholder="Message*" rows="4" class="w-full p-2 border-b-2 border-white  bg-gray-800 text-white focus:ring-2 focus:ring-blue-400"></textarea>
+                <button type="submit" class="w-full py-4 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600">Submit</button>
+            </form>
+        </div>
+        <!-- Map -->
+        <div>
+            <iframe class="w-full h-96 rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.8472605375594!2d-73.56725668444038!3d45.50168887910162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a37e7357fbb%3A0x6d6d1cfa3b177e10!2sDowntown%20Montreal!5e0!3m2!1sen!2sca!4v1637119200128!5m2!1sen!2sca" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+   <section class="relative bg-cover bg-center h-[500px]" style="background-image: url('Images/footer.jpeg'); background-position: top center;">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative text-white container mx-auto flex flex-col items-center justify-center h-full text-center">
+        <h1 class="text-4xl font-bold mb-6 text-white ">Connect with Us on Your Project to Get It Done</h1>
+        <button class="bg-blue-500 text-white px-8 py-4 rounded-md font-semibold hover:bg-blue-600">Contact Us</button>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-[#1E293B] py-12">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6 lg:px-0 pb-16 text-center md:text-left">
+      <!-- Company Info -->
+      <div class="flex flex-col items-center md:items-start">
+          <div class="flex items-center justify-center md:justify-start">
+              <img src="Images/RAZORKH3white 1.png" class="h-12">
+          </div>
+          <p class="text-sm text-white mb-4 mt-2">Lorem ipsum dolor sit amet consectetur. Phasellus tincidunt vitae at amet. Quis nam sed leo ullamcorper.</p>
+          <div class="flex justify-center md:justify-start space-x-4">
+              <a href="#" class="text-white text-lg hover:text-blue-500">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-white text-lg hover:text-blue-500">
+                  <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="text-white text-lg hover:text-blue-500">
+                  <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#" class="text-white text-lg hover:text-blue-500">
+                  <i class="fab fa-instagram"></i>
+              </a>
+          </div>
+      </div>
+      <!-- Quick Links -->
+      <div class="flex flex-col items-center md:items-start">
+          <h2 class="text-xl text-white font-semibold mb-4">Quick Links</h2>
+          <ul class="space-y-2">
+              <li><a href="#" class="text-white hover:text-blue-500">Home</a></li>
+              <li><a href="#" class="text-white hover:text-blue-500">About Us</a></li>
+              <li><a href="#" class="text-white hover:text-blue-500">Our Team</a></li>
+              <li><a href="#" class="text-white hover:text-blue-500">Latest Projects</a></li>
+          </ul>
+      </div>
+      <!-- About -->
+      <div class="flex flex-col items-center md:items-start">
+          <h2 class="text-xl text-white font-semibold mb-4">About</h2>
+          <ul class="space-y-2">
+              <li><a href="#" class="text-white hover:text-blue-500">Terms of Service</a></li>
+              <li><a href="#" class="text-white hover:text-blue-500">Privacy Policy</a></li>
+              <li><a href="#" class="text-white hover:text-blue-500">Contact Us</a></li>
+          </ul>
+      </div>
+      <!-- Get in Touch -->
+      <div class="flex flex-col items-center md:items-start">
+          <h2 class="text-xl text-white font-semibold mb-4">Get in Touch</h2>
+          <p class="text-sm text-white mb-2">sales@devready.io</p>
+          <p class="text-sm text-white">833-338-7323</p>
+      </div>
+  </div>
+
+  <hr class="border border-gray-600">
+  <div class="text-center text-white mt-4">
+      <p>© 2024 KH3. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<!-- Font Awesome for Social Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+  // JavaScript to toggle the menu on mobile view
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+  });
+</script>
+</body>
+</html>

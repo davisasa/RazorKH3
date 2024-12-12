@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor KH3 Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Header Section -->
+    <header class="relative bg-cover bg-center-top h-[600px]" style="background-image: url('Images/Rectangle\ 1.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="container mx-auto relative z-10">
+            <!-- Navigation -->
+            <nav class="flex justify-between items-center py-6 lg:px-12 md:px-0 md:text-sm lg:text-lg ">
+                <div class="flex items-center">
+                    <img src="Images/RAZORKH3white 1.png" class="lg:h-16 md:h-12" alt="Logo">
+                </div>
+                <div class="md:hidden">
+                    <!-- Hamburger Menu Icon -->
+                    <button id="menu-toggle" class="text-white focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+                <ul id="menu" class="hidden md:flex flex-col md:flex-row md:space-x-6 md:items-center md:static absolute bg-white md:bg-transparent text-black md:text-white top-20 left-0 w-full md:w-auto">
+                    <li><a href="index.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black">Home</a></li>
+                    <li><a href="our-services.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Our Services</a></li>
+                    <!-- <li><a href="#" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Testimonials</a></li> -->
+                    <li><a href="#" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">Recent Works</a></li>
+                    <li><a href="about.html" class="block md:inline-block py-2 md:py-0 px-6 md:px-0 md:text-white text-black ">About Us</a></li>
+                </ul>
+                <a href="contact-us.html" class="hidden md:block border-2 lg:text-xl md:text-lg text-white py-2 px-6 rounded">Contact Us</a>
+            </nav>
+
+            <!-- Hero Content -->
+            <div class="text-center text-white mt-16">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">What We Provide, Have a Look at Our Services</h1>
+                <p class="max-w-3xl mx-auto text-lg mb-8">
+                    At KH3, we believe that every construction project is a work of art waiting to be realized. With our 
+                    unwavering commitment to excellence, we have established ourselves as the premier Construction Project 
+                    Management Firm in Ghana, specializing in Interior Design and Fit-out. With a passion for transforming 
+                    spaces into functional and aesthetically pleasing environments, we bring your visions to life.
+                </p>
+               
+                <a href="#expertise" class="inline-block bg-white text-blue-500 px-8 py-3 rounded font-semibold hover:bg-gray-200">Scroll Down</a>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Contact Section -->
+    <section class="bg-[#1E293B] py-16">
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 lg:px-0">
+            <!-- Contact Form -->
+            <div>
+                <h2 class="text-3xl font-bold mb-6">Get in Touch With Us</h2>
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <input type="text" placeholder="Name*" class="p-4 rounded-md bg-gray-800 text-white focus:ring-2 focus:ring-blue-400">
+                        <input type="email" placeholder="Email*" class="p-4 rounded-md bg-gray-800 text-white focus:ring-2 focus:ring-blue-400">
+                        <input type="text" placeholder="Purpose" class="p-4 rounded-md bg-gray-800 text-white focus:ring-2 focus:ring-blue-400">
+                    </div>
+                    <textarea placeholder="Message*" rows="4" class="w-full p-4 rounded-md bg-gray-800 text-white focus:ring-2 focus:ring-blue-400"></textarea>
+                    <button type="submit" class="w-full py-4 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600">Submit</button>
+                </form>
+            </div>
+            <!-- Map -->
+            <div>
+                <iframe class="w-full h-96 rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.8472605375594!2d-73.56725668444038!3d45.50168887910162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a37e7357fbb%3A0x6d6d1cfa3b177e10!2sDowntown%20Montreal!5e0!3m2!1sen!2sca!4v1637119200128!5m2!1sen!2sca" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    
+        
+
+      <section class="flex flex-col lg:flex-row items-center px-6 lg:px-16 py-16 bg-[#0F172A]">
+        <!-- Image -->
+        <div class="lg:w-1/2 mt-8 lg:mt-0 lg:pl-12">
+            <img src="Images/Rectangle 4 copy 2.png" alt="Professional Portrait">
+        </div>
+        <!-- Text Content -->
+        <div class="lg:w-1/2">
+            <h3 class="text-blue-400 text-sm font-semibold uppercase tracking-wider mb-4">Testimonials</h3>
+            <h1 class="text-4xl font-bold mb-6 leading-tight">
+                Check What Our Clients Are Saying
+            </h1>
+            <p class="text-gray-300 text-lg leading-relaxed">
+                <span class="text-3xl">
+                    <img src="Images/“.png">
+                </span>
+                Lorem ipsum dolor sit amet consectetur. Pulvinar ullamcorper enim ligula ultrices. Mattis justo duis ac in id dictumst donec cras fermentum. Diam integer fermentum vel pretium. Enim senectus consequat tincidunt vitae placerat nulla velit ultricies. Interdum posuere dui egestas arcu in urna. Ac elit et egestas mauris vulputate facilisis erat amet laoreet.
+                </p>
+                <!-- Stars -->
+              <div class="flex mt-2">
+                <span class="text-yellow-500">★</span>
+                <span class="text-yellow-500">★</span>
+                <span class="text-yellow-500">★</span>
+                <span class="text-yellow-500">★</span>
+                <span class="text-yellow-500">★</span>
+              </div>
+                <div class="text-sm font-medium text-blue-500">Faizan Shafiq</div>
+              <div class="text-gray-400 text-xs">UI/UX Designer</div>
+        </div>
+        
+    </section>
+
+    <section class="relative bg-cover bg-center h-[500px]" style="background-image:  url('Images/footer.jpeg'); background-position: top center;">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative text-white  container mx-auto flex flex-col items-center justify-center h-full text-center">
+            <h1 class="text-4xl font-bold mb-6 text-white">Connect with Us on Your Project to Get It Done</h1>
+            <button class="bg-blue-500 text-white px-8 py-4 rounded-md font-semibold hover:bg-blue-600">Contact Us</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-[#1E293B] py-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6 lg:px-0 pb-16 text-center md:text-left">
+            <!-- Company Info -->
+            <div class="flex flex-col items-center md:items-start">
+                <div class="flex items-center justify-center md:justify-start">
+                    <img src="Images/RAZORKH3white 1.png" class="h-12">
+                </div>
+                <p class="text-sm text-white mb-4 mt-2">Lorem ipsum dolor sit amet consectetur. Phasellus tincidunt vitae at amet. Quis nam sed leo ullamcorper.</p>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="#" class="text-white text-lg hover:text-blue-500">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white text-lg hover:text-blue-500">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-white text-lg hover:text-blue-500">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="text-white text-lg hover:text-blue-500">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Quick Links -->
+            <div class="flex flex-col items-center md:items-start">
+                <h2 class="text-xl text-white font-semibold mb-4">Quick Links</h2>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-white hover:text-blue-500">Home</a></li>
+                    <li><a href="#" class="text-white hover:text-blue-500">About Us</a></li>
+                    <li><a href="#" class="text-white hover:text-blue-500">Our Team</a></li>
+                    <li><a href="#" class="text-white hover:text-blue-500">Latest Projects</a></li>
+                </ul>
+            </div>
+            <!-- About -->
+            <div class="flex flex-col items-center md:items-start">
+                <h2 class="text-xl text-white font-semibold mb-4">About</h2>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-white hover:text-blue-500">Terms of Service</a></li>
+                    <li><a href="#" class="text-white hover:text-blue-500">Privacy Policy</a></li>
+                    <li><a href="#" class="text-white hover:text-blue-500">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Get in Touch -->
+            <div class="flex flex-col items-center md:items-start">
+                <h2 class="text-xl text-white font-semibold mb-4">Get in Touch</h2>
+                <p class="text-sm text-white mb-2">sales@devready.io</p>
+                <p class="text-sm text-white">833-338-7323</p>
+            </div>
+        </div>
+    
+        <hr class="border border-gray-600">
+        <div class="text-center text-white mt-4">
+            © 2024 KH3. All Rights Reserved.
+        </div>
+    </footer>
+    
+
+    <!-- Font Awesome for Social Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // JavaScript to toggle the menu on mobile view
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+
+</body>
+
+</html>
